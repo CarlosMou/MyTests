@@ -5,15 +5,17 @@ resposta = input()
 if resposta == 'no':
 	print ('All right we begin!')
 	print ('What is your weight?')
-	weight = input
-if weight >= str(90):
+	weight = input()	
+if weight >= (str(90)): 
 	print ('You are the on dies first')
-else:	
-	print ('End Game')
- 
+elif weight <= (str(18)):
+	print ('You are the on who hides')
+else:
+	print ('You live in film')
 
+	
 #comando para inserir peso altura, e idade
-#se tiver x ele pode ser o que morre primeiro, o que se esconde, o que mata o vilao ou o que transa
+#se tiver x ele pode ser o que morre primeiro, o se vive.
 
 
 
